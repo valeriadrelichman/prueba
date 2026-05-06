@@ -1,0 +1,109 @@
+/*::::::::::::::::::::::::::::::
+----- ESTRUCTURA GENERAL ------
+::::::::::::::::::::::::::::::::*/
+
+*{
+  box-sizing: border-box;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 1em;
+  max-width: 80em;
+}
+
+main{
+  width: 90%;
+  height: 100em;
+  border: 1em;
+  padding: 2rem;
+  margin: auto;
+  background-color: rgb(168, 168, 255);
+}
+
+
+footer {
+  width: 90%;
+  height: 6em;
+  margin: auto;
+  background: #111;
+}
+
+/*:::::::::::::::::::::::::::::::::::::
+----- ESTRUCTURA GENERAL ESTILOS ------
+::::::::::::::::::::::::::::::::::::::::*/
+
+body {
+    background-image: url(/img/fondo.png);
+}
+
+.nada {
+    text-align: left;
+    text-decoration: none;
+    background-color: #111;
+    color: rgb(255, 255, 255);
+}
+.pap {
+    padding: 2em;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(56, 97, 233, 0.144);
+}
+
+.tap {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  color: #fff;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*::::::::::::::::::::::::::::::::::
+----- ESTILOS DE TIPOGRAFIAS ------
+::::::::::::::::::::::::::::::::::::*/
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+
+h2 {
+    font-size: 22;
+    text-align: left;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18;
+  background-color: rgba(110, 151, 187, 0.61);
+}
+
+
+
