@@ -1,109 +1,118 @@
-/*::::::::::::::::::::::::::::::
------ ESTRUCTURA GENERAL ------
-::::::::::::::::::::::::::::::::*/
+* { box-sizing: border-box; 
+ }
+ body{background-image: URL("../img/fondo.png");
+     /*font-family: "Crimson Text", serif; /*Se pone en el body y todos tiene la fuente  */
+     font-family: "inika-regular",serif;
+     font-weight: 600;
+     font-style: normal;
+     padding: 0;
+     margin: 10px; 
+ }
 
-*{
-  box-sizing: border-box;
-  margin-left: 2em;
-  margin-right: 2em;
-  padding: 1em;
-  max-width: 80em;
+ header {background-color:lightblue;
+        color: gray;
+        padding: 2em;
+        /*position: fixed;*/
+        /*z-index: 100;*/  
+        margin-left: 0;
+       /* text-align:right;*/
+        align-items: left;
 }
 
-main{
-  width: 90%;
-  height: 100em;
-  border: 1em;
-  padding: 2rem;
-  margin: auto;
-  background-color: rgb(168, 168, 255);
+h1 {background-color:blue;
+    color:rgb(14, 14, 12);
+    text-align: center; 
+        /*font-family:'crimson-text-regular';*/
+    font-weight: 800;
+    text-transform: uppercase;
+} 
+article {background-color:gray;
+         /*display: flexbox;*/
+        text-align: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: block;
+        }
+
+nav ul {display: inline-block;  padding: 0; margin: 0;}/* Ítems del menú en una línea horizontal */ 
+nav li {list-style: none;  margin-right: 20px;display: inline-block; } /* display :inlie-block, hace el menus horizontal*/
+nav a:hover {  text-decoration: underline;}
+nav {
+	background-color:transparent;
+    align-items: rigth;
+}
+nav a:link {
+	background-color: #999;
+	color: #000;
+}
+nav a:visited {
+	background-color: #999;
+	color: #000;
+}
+nav a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+nav a:active {
+	background-color: #F00;
+	color: #FFF;
+}
+footer{ background-color: aliceblue;color: black;
 }
 
-
-footer {
-  width: 90%;
-  height: 6em;
-  margin: auto;
-  background: #111;
-}
-
-/*:::::::::::::::::::::::::::::::::::::
------ ESTRUCTURA GENERAL ESTILOS ------
-::::::::::::::::::::::::::::::::::::::::*/
-
-body {
-    background-image: url(/img/fondo.png);
-}
-
-.nada {
-    text-align: left;
-    text-decoration: none;
-    background-color: #111;
-    color: rgb(255, 255, 255);
-}
-.pap {
-    padding: 2em;
-    margin: auto;
+img {
+    width: 600px; /* Ajusta según la necesidad */
+    height:400px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    display: inline-block;
+  }
+   h2{
+     background-color: blue;
+     color:aliceblue;
+    
     text-align: center;
-    background-color: rgba(56, 97, 233, 0.144);
+     margin: 0px; 
+  }
+  p{
+    background-color: blue;
+
+  }
+  footer p{
+    background-color: aquamarine;
+  }
+article ul li {
+text-align: left;
 }
 
-.tap {
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  padding: 1em;
-  background-color: #fff;
+  
+.contenedor-bloque {
+   /* display: flex; */
+   /* align-items: right ; /* Para centrar verticalmente si es necesario */
+    padding: 0px;
+    margin: 0px;
+  }
+
+.resaltar{
+    font-size: x-large;
+    color: black;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-  color: #fff;
-}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/*::::::::::::::::::::::::::::::::::
------ ESTILOS DE TIPOGRAFIAS ------
-::::::::::::::::::::::::::::::::::::*/
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 26;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    background-color: #333;
-}
 
-h2 {
-    font-size: 22;
-    text-align: left;
-    font-style: italic;
-    text-align: center;
-}
 
-p{
-  font-family: "Overlock", sans-serif;
+
+
+ .inika-regular {
+  font-family: "Inika", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18;
-  background-color: rgba(110, 151, 187, 0.61);
 }
 
-
-
+.inika-bold {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+}
